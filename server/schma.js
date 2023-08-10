@@ -5,12 +5,6 @@ const schema = buildSchema(`
         id: ID
         username: String
         age: Int
-        posts: [Post]
-    }
-    type Post {
-        id: ID
-        title: String
-        content: String
     }
     
     input UserInput {
